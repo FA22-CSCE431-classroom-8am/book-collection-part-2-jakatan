@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @sister.user_id %>
+</p>
+
+<p>
+  <strong>Book:</strong>
+  <%= @sister.book_id %>
+</p>
+
+<%= link_to 'Edit', edit_sister_path(@sister) %> |
+<%= link_to 'Back', sisters_path %>
